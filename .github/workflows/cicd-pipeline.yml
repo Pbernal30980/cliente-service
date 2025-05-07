@@ -85,8 +85,8 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t pbernal30980/cliente-service:latest .
-          docker push pbernal30980/cliente-service:latest
+          docker build -t pbernal30678/cliente-service:latest .
+          docker push pbernal30678/cliente-service:latest
 
   deploy:
     if: true
