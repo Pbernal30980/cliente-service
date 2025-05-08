@@ -89,7 +89,7 @@ jobs:
           docker push pbernal30678/cliente-service:latest
 
   deploy:
-    if: true
+    if: false
     needs: build-and-publish
     runs-on: ubuntu-latest
 
